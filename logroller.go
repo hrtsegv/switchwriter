@@ -115,9 +115,6 @@ func (r *Rotator) Close() error {
 
 // rotate closes the current file, renames it with timestamp suffix, and opens a new file.
 func (r *Rotator) rotate() error {
-	r.mu.Lock()
-	defer r.mu.Unlock()
-
 	// close current
 	r.file.Close()
 
