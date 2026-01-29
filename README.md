@@ -17,7 +17,7 @@ Callers never need to know that rotation is happening.
 ## Installation
 
 ```bash
-go get github.com/aladdin-io/switchwriter
+go get github.com/hrtsegv/switchwriter
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ import (
     "log"
     "os"
 
-    "github.com/aladdin-io/switchwriter"
+    "github.com/hrtsegv/switchwriter"
 )
 
 func main() {
